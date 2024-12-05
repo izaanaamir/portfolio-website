@@ -58,7 +58,7 @@ const Home = () => {
         <img
           src="images/logo.webp"
           alt="Logo"
-          className={`h-40 w-auto transition-all ${
+          className={`h-40 w-auto transition-all -translate-y-8 ${
             darkMode ? "invert brightness-200" : ""
           }`}
         />
